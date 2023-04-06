@@ -1,0 +1,9 @@
+*.sw[po]
+**/.DS_Store
+/.cargo
+/dist
+**/node_modules
+**/util/store/**
+**/test-ledger/**
+**/programs/*/target/**
+**/programs/**/protos/**

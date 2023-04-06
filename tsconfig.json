@@ -1,0 +1,27 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2017"
+    }
+  },
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": ".",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "checkJs": false,
+    "lib": [
+      "ES2020.Promise", "DOM"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "include": [
+    "src/*.ts"
+  ]
+}
