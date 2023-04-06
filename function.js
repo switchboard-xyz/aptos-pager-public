@@ -74,7 +74,7 @@ const pager = async (req, res) => {
         const turnerVal = await accountBalance(client, "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137");
         let oracleVal;
         if (process.env.CLUSTER != "testnet") {
-            oracleVal = await accountBalance(client, "0xf92bc956b9e25f38a2e4829b58f03ca9724233985cdda3f818bc3e62d6ed7d9c");
+            oracleVal = await accountBalance(client, process.env.ORACLE_WALLET);
         }
         else {
             oracleVal = 1;
