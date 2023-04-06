@@ -96,7 +96,7 @@ export const pager: HttpFunction = async (req, res) => {
     if (process.env.CLUSTER != "testnet") {
       oracleVal = await accountBalance(
         client,
-        "0xf92bc956b9e25f38a2e4829b58f03ca9724233985cdda3f818bc3e62d6ed7d9c"
+        process.env.ORACLE_WALLET
       );
     } else {
       oracleVal = 1;

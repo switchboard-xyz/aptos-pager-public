@@ -1,0 +1,6 @@
+env variables:
+
+NODE_URL (RPC url)
+SWITCHBOARD_ADDRESS (contract address)
+PAGERDUTY_KEY (pagerduty event key)
+ORACLE_WALLET (address of wallet you want to monitor the balance of)
