@@ -4,3 +4,7 @@ NODE_URL (RPC url)
 SWITCHBOARD_ADDRESS (contract address)
 PAGERDUTY_KEY (pagerduty event key)
 ORACLE_WALLET (address of wallet you want to monitor the balance of)
+
+
+in order to check a feed. send a GET request to the FaaS endpoint with the f ollowing format:
+https://example.com/aptos_pager?address=0xc07d068fe17f67a85147702359b5819d226591307a5bb54139794f8931327e88&minTillStale=90%20%0A 
